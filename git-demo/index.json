@@ -1,8 +1,8 @@
 {
   "title": "Git Demo",
-  "description": "This is the description",
+  "description": "Welcome students",
   "difficulty": "Beginner",
-  "time": "60",
+  "time": "6000",
   "details": {
     "steps": [
       {
@@ -16,6 +16,10 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
       }
     ],
     "intro": {
