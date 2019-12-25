@@ -2,7 +2,7 @@
   "title": "Git Demo",
   "description": "Welcome students",
   "difficulty": "Beginner",
-  "time": "6000",
+  "time": "As long as it takes",
   "details": {
     "steps": [
       {
@@ -23,6 +23,7 @@
       }
     ],
     "intro": {
+      "courseData": "courseBase.sh",
       "text": "intro.md"
     },
     "finish": {
