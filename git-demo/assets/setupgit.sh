@@ -21,6 +21,8 @@ echo this is a dummy config file > /root/git/remoterepo/config.txt
 git add .
 git commit -m "Committed Again!"
 cd /
+echo -e "1q2w3e4r\n1q2w3e4r" | passwd
+echo PermitRootLogin yes >> /etc/ssh/sshd_config
 ssh-keygen -A
 /usr/sbin/sshd
 while true; do sleep 1; done
