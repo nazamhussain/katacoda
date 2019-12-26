@@ -24,6 +24,6 @@ cd /
 echo -e "1q2w3e4r\n1q2w3e4r" | passwd
 echo PermitRootLogin yes >> /etc/ssh/sshd_config
 ssh-keygen -t rsa -f /root/.ssh/id_rsa -q -P ""
-#ssh-keygen -A
+ssh-keygen -A
 /usr/sbin/sshd
 while true; do sleep 1; done
