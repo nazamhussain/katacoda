@@ -9,3 +9,5 @@ LABEL description="Generic Git server build"
 COPY setupgit.sh /var/tmp
 
 ENTRYPOINT ["/bin/ash"]
+
+CMD ["sh","/var/tmp/setupgit.sh"]
