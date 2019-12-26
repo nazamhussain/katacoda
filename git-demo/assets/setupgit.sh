@@ -12,3 +12,5 @@ cd /root/git/remoterepo
 git add .
 git commit -m "Initial Commit"
 cd /
+
+while true; do sleep 1; done
