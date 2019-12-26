@@ -4,7 +4,4 @@ touch data.txt
 
 chmod +x setBash.sh
 
-. ./setBash.sh
-
-alias naz='ls'
-
+/usr/bin/bash /root/setBash.sh
