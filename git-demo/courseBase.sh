@@ -4,4 +4,7 @@ touch data.txt
 
 chmod +x setBash.sh
 
-/usr/bin/bash /root/setBash.sh
+sleep 5
+
+. ./setBash.sh
+
