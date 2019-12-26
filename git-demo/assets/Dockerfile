@@ -10,4 +10,4 @@ COPY setupgit.sh /var/tmp
 
 ENTRYPOINT ["/bin/ash"]
 
-CMD ["sh","/var/tmp/setupgit.sh"]
+CMD ["/var/tmp/setupgit.sh"]
