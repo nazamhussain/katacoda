@@ -37,6 +37,14 @@
           "target": "/var/tmp/"
         },
         {
+          "file": "id_rsa",
+          "target": "/var/tmp/"
+        },
+        {
+          "file": "id_rsa.pub",
+          "target": "/var/tmp/"
+        },
+        {
           "file": "setupgit.sh",
           "target": "/var/tmp/"
         }
