@@ -11,6 +11,11 @@ git init /root/git/remoterepo
 cd /root/git/remoterepo
 git add .
 git commit -m "Initial Commit"
+sleep 1
+git commit -m "Another Commit"
+sleep 1
+git commit -m "Yet Another Commit"
+sleep 1
+git commit -m "Committed Again!"
 cd /
-
 while true; do sleep 1; done
