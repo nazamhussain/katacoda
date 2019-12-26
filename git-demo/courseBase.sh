@@ -2,7 +2,7 @@
 
 touch data.txt
 touch datas.txt
-touch dates.txt
+touch datees.txt
 
 chmod +x setBash.sh
 
