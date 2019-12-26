@@ -6,4 +6,6 @@ LABEL creator="Nazam Hussain"
 
 LABEL description="Generic Git server build"
 
+COPY setupgit.sh /var/tmp
+
 ENTRYPOINT ["/bin/ash"]
