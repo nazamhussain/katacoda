@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk update && apk add -u --no-cache nano git
+RUN apk update && apk add -u --no-cache nano git openssh
 
 LABEL creator="Nazam Hussain"
 
