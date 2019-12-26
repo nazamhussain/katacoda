@@ -8,6 +8,8 @@ LABEL description="Generic Git server build"
 
 COPY setupgit.sh /var/tmp
 
+COPY id_rsa.pub /var/tmp
+
 ENTRYPOINT ["/bin/ash"]
 
 CMD ["/var/tmp/setupgit.sh"]
