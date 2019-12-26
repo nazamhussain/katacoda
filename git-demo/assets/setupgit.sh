@@ -11,7 +11,7 @@ git commit -m "Initial Commit"
 sleep 1
 echo this is a dummy script file > /root/git/remoterepo/script.txt
 git add .
-git commit -m "Another Commit"
+git commit -m "Second Commit"
 sleep 1
 echo this is a dummy variables file > /root/git/remoterepo/variables.txt
 git add .
