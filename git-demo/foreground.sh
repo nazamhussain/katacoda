@@ -5,7 +5,7 @@ while ! ping -c 1 -n -w 1 172.18.0.2 &> /dev/null; do sleep 1; done
 sleep 1
 cp /var/tmp/id_rsa /root/.ssh/
 cp /var/tmp/id_rsa.pub /root/.ssh/
-while ! ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls &> /dev/null; do printf "%c" "."; done
-#ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls
+while ! ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls; do printf "%c" "."; done
+#while ! ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls &> /dev/null; do printf "%c" "."; done
 sleep 1
 clear
