@@ -1,4 +1,4 @@
 #!/bin/bash
 
 touch data.txt
-touch 123.txt
+docker build --tag gitserver /var/tmp

@@ -34,7 +34,7 @@
       "host01": [
         {
           "file": "Dockerfile",
-          "target": "~/"
+          "target": "/var/tmp/"
         }
       ]
     }
