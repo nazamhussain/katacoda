@@ -21,4 +21,6 @@ echo this is a dummy config file > /root/git/remoterepo/config.txt
 git add .
 git commit -m "Committed Again!"
 cd /
+ssh-keygen -A
+/usr/sbin/sshd
 while true; do sleep 1; done
