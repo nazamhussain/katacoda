@@ -35,6 +35,10 @@
         {
           "file": "Dockerfile",
           "target": "/var/tmp/"
+        },
+        {
+          "file": "setupgit.sh",
+          "target": "/var/tmp/"
         }
       ]
     }
