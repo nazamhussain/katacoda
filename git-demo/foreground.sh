@@ -9,5 +9,4 @@ cp /var/tmp/id_rsa.pub /root/.ssh/
 echo -e "\e[1;31mWait for Terminal to refresh\e[0m"
 while ! ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls &> /dev/null; do printf "%c" "."; done
 sleep 1
-for i in {1}; do clear; echo -e "\e[1;31mReady to use\e[0m"; done
-
+for i in {1}; do clear; echo -e "\e[1;31mYour Interactive Bash Terminal is ready to use\e[0m"; done
