@@ -1,4 +1,5 @@
 #!/bin/bash
+echo -e "\e[31mWait for Terminal to refresh\e[0m"
 export PS1="\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\W\[\e[m\]\\$ "
 sleep 1
 echo "172.18.0.2 gitserver" >> /etc/hosts
@@ -8,4 +9,5 @@ sleep 1
 cp /var/tmp/id_rsa.pub /root/.ssh/
 while ! ssh -o 'StrictHostKeyChecking no' -f root@gitserver ls &> /dev/null; do printf "%c" "."; done
 sleep 1
-clear
+for i in {1}; do echo -e "\e[32mReady to use\e[0m"; clear; done
+
