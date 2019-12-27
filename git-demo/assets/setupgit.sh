@@ -20,6 +20,7 @@ sleep 1
 echo this is a dummy config file > /remoterepo/config.txt
 git add .
 git commit -m "Committed Again!"
+git config --bool core.bare true
 cd /
 echo -e "1q2w3e4r\n1q2w3e4r" | passwd
 echo PermitRootLogin yes >> /etc/ssh/sshd_config
