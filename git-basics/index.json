@@ -6,6 +6,10 @@
   "details": {
     "steps": [
       {
+        "title": "Create a Local Repository",
+        "text": "step1.md"
+      },
+      {
         "title": "Step 1",
         "text": "step1.md"
       },
