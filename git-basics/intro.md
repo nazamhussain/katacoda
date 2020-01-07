@@ -2,7 +2,7 @@ This scenario will allow you to practise basic Git concepts.
 
 By the end of this scenario, you should be comfortable with the following:
 
-* Initializing a Local Repository
+* Initializing a Repository
 * Staging Files
 * Ignoring Files
 * Checking the Git status of a repository
