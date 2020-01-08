@@ -10,8 +10,11 @@ The `git init` command can be used to initialize a repo in one of two ways:
 
 ## Method 1
 
- * `echo 'Hello World'`{{copy}}
- * `echo 'Hello World'`{{copy}}
+ * `mkdir localrepo`{{copy}}
+ * `cd localrepo`{{copy}}
+ * `git status`{{copy}}
+ * `git init`{{copy}}
+ * `git status`{{copy}}
 
 
 ## Method 2
