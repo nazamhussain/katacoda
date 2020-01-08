@@ -6,12 +6,13 @@
   "details": {
     "steps": [
       {
-        "title": "Create a Git Repository",
+        "title": "Create Git Repository",
         "text": "step1.md"
       },
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Stage Files",
+        "courseData": "step2.sh",
+        "text": "step2.md"
       },
       {
         "title": "Step 2",
