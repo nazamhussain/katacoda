@@ -20,7 +20,7 @@ The `git init` command can be used to initialize a repo in one of two ways:
  * `git status`{{copy}}
 
 
-## Keep directory but remove repo
+## Keep Directory but Remove Repo
 
 1. Confirm the presence of the _.git_ directory
  * `ls -al`{{copy}}
