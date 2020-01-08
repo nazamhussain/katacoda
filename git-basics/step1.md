@@ -8,9 +8,9 @@ The `git init` command can be used to initialize a repo in one of two ways:
  * Method 1 - in the current directory by simply issuing `git init`
  * Method 2 - in the specified directory by issuing `git init /path/to/your/directory` - _the directory will be created if it doesn't already exist_
 
-## Method 1
+## Initialize via Method 1
 
-1. Navigate in to the `localrepo` directory
+1. Navigate in to the _localrepo_ directory
  * `cd localrepo`{{copy}}
 2. Confirm the directory is not currently a Git repo
  * `git status`{{copy}}
@@ -20,7 +20,17 @@ The `git init` command can be used to initialize a repo in one of two ways:
  * `git status`{{copy}}
 
 
-## Method 2
+## Keep the directory but remove the repo
+
+1. Confirm the presence of the _.git_ directory
+ * `ls -al`{{copy}}
+2. Delete the _.git_ directory
+ * `rm -rf .git`{{copy}}
+3. Confirm the directory is no longer a Git repo
+ * `git status`{{copy}}
+
+
+## Initialize via Method 2
 
 This is an _example_ of creating a scenario and running a **command**
 
