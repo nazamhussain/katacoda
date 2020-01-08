@@ -10,8 +10,9 @@ The `git init` command can be used to initialize a repo in one of two ways:
 
 ## Method 1
 
- * `mkdir localrepo`{{copy}}
+1. Navigate in to the `localrepo` directory
  * `cd localrepo`{{copy}}
+2. Navigate in to the `localrepo` directory
  * `git status`{{copy}}
  * `git init`{{copy}}
  * `git status`{{copy}}
