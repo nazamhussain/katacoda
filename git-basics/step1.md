@@ -11,10 +11,12 @@ The `git init` command can be used to initialize a repo in one of two ways:
 ## Method 1
 
 1. Navigate in to the `localrepo` directory
- *. `cd localrepo`{{copy}}
-2. Navigate in to the `localrepo` directory
+ * `cd localrepo`{{copy}}
+2. Confirm the directory is not currently a Git repo
  * `git status`{{copy}}
+3. Initialize a new Git repo in the current directory
  * `git init`{{copy}}
+4. Confirm the directory is now a Git repo
  * `git status`{{copy}}
 
 
