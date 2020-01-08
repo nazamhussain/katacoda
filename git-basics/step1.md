@@ -20,7 +20,7 @@ The `git init` command can be used to initialize a repo in one of two ways:
  * `git status`{{copy}}
 
 
-## Keep the directory but remove the repo
+## Keep directory but remove repo
 
 1. Confirm the presence of the _.git_ directory
  * `ls -al`{{copy}}
@@ -32,13 +32,12 @@ The `git init` command can be used to initialize a repo in one of two ways:
 
 ## Initialize via Method 2
 
-This is an _example_ of creating a scenario and running a **command**
+1. Navigate out of the _localrepo_ directory
+ * `cd ..`{{copy}}
+2. Initialize a new Git repo in the _localrepo_ directory
+ * `git init localrepo`{{copy}}
+3. Navigate back in to the _localrepo_ directory
+ * `cd localrepo`{{copy}}
+4. Confirm the directory is now a Git repo
+ * `git status`{{copy}}
 
-`echo 'Hello World'`{{copy}}
-
-
-## Method 2
-
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{copy}}
