@@ -1,6 +1,6 @@
 **Objective: A number of files have been added to the `localrepo` directory. Stage these files so they can be committed to the repository.**
 
-Use the `git add <_filepattern_>` command to stage files.
+Use the `git add <filepattern>` command to stage files.
 
 All files can be added in one go by executing `git add .`
 
