@@ -41,3 +41,5 @@ The `git init` command can be used to initialize a repo in one of two ways:
 4. Confirm the directory is now a Git repo
  * `git status`{{copy}}
 
+
+**Ensure you have a Git repo in the `localrepo` directory before continuing**
