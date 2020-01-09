@@ -37,6 +37,18 @@
       {
         "title": "Commit History",
         "text": "step8.md"
+      },
+      {
+        "title": "Git References",
+        "text": "step9.md"
+      },
+      {
+        "title": "Detached HEAD State",
+        "text": "step10.md"
+      },
+      {
+        "title": "Practice Concepts",
+        "text": "step11.md"
       }
     ],
     "intro": {
