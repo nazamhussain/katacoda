@@ -12,11 +12,13 @@ Create a `.gitignore` file that contains a line matching the name of the file to
  * `git status`{{copy}}
 4. Create _.gitignore_ file with _application.exe_ included as a file to ignore
  * `echo application.exe > .gitignore`{{copy}}
-5. Verify that the _application.exe_ file is now being ignored
+5. View the contents of the _.gitignore_ file
+ * `cat .gitignore`{{copy}}
+6. Verify that the _application.exe_ file is now being ignored
  * `git status`{{copy}}
-6. Stage all files using a single command
+7. Stage all files using a single command
  * `git add .`{{copy}}
-7. Verify that the _application.exe_ file was not staged
+8. Verify that the _application.exe_ file was not staged
  * `git status`{{copy}}
 
 **Ensure all files (except _application.exe_) are staged before continuing**

@@ -2,22 +2,23 @@
 
 ## Modify the file
 
-1. Add a new timestamp to the _timestamps.txt_ file
+1. View the _timestamps.txt_ file before modification
+ * `cat timestamps.txt`{{copy}}
+2. Add a new timestamp to the _timestamps.txt_ file
  * `echo | date >> timestamps.txt`{{copy}}
-2. Tell Git what your name is
- * `git config --global user.name "Your Name"`
-3. Tell Git what your email address is
- * `git config --global user.email "you@example.com"`
-4. Now you are ready to start committing!
+3. Verify the modification
+ * `cat timestamps.txt`{{copy}}
 
 
-## Commit the staged files
+## Verify Git Status
 
-Commit the staged files using one of the following methods:
+1. Confirm that Git has detected the modification
+ * `git status`{{copy}}
 
-1. Commit the staged files - _the default text editor will open and request a commit message_
- * `git commit`
-2. Commit the staged files - _provide an inline commit message_
- * `git commit -m "Initial Commit"`
 
-**Ensure the staged files have been committed before continuing**
+## Stage the Modified File
+
+1. Stage the modified file
+ * `git add .`{{copy}}
+
+**Ensure the modified file has been staged before continuing**
