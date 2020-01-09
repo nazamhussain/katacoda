@@ -20,5 +20,7 @@
 
 1. Stage the modified file
  * `git add .`{{copy}}
+2. Confirm that modified file has been staged
+ * `git status`{{copy}}
 
 **Ensure the modified file has been staged before continuing**
