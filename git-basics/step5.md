@@ -1,11 +1,9 @@
-**Objective: Commit the staged files to the repository.**
+**Objective: Modify and stage the `timestamps.txt` file.**
 
-Use the `git commit` command to add the staged files in to the repository.
+## Modify the file
 
-## Who are you?
-
-1. Trying to commit at this stage will fail because Git doesn't know who you are
- * `git commit`{{copy}}
+1. Add a new timestamp to the _timestamps.txt_ file
+ * `echo | date >> timestamps.txt`{{copy}}
 2. Tell Git what your name is
  * `git config --global user.name "Your Name"`
 3. Tell Git what your email address is
