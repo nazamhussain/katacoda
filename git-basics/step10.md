@@ -15,7 +15,7 @@ Use the `git checkout <commit id>` command to move the HEAD pointer to a particu
 ## Exit Detached HEAD State
 
 1. Move the HEAD pointer to the master branch
- * `git checkout master`
+ * `git checkout master`{{copy}}
 2. View the location of the HEAD pointer
  * `cat .git/HEAD`{{copy}}
 
