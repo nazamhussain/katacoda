@@ -1,8 +1,8 @@
 {
-  "title": "Git Demo",
-  "description": "Welcome students",
-  "difficulty": "Beginner",
-  "time": "As long as it takes",
+  "title": "Git Remotes",
+  "description": "Practise basic Git concepts in an interactive Linux terminal",
+  "difficulty": "",
+  "time": "",
   "details": {
     "steps": [
       {
