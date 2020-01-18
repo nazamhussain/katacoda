@@ -13,21 +13,33 @@ Attempt to complete the tasks on the PowerPoint slide - the commands listed may 
 
 `git branch`
 
-`git checkout`
+`git branch -r`
 
-`git clone`
+`git branch <branch_name>`
+
+`git branch -d <branch_name>`
+
+`git checkout <branch_name>`
+
+`git checkout <commit_id>`
+
+`git clone <url> <directory>`
+
+`git commit`
 
 `git commit -m "Insert Commit Message Here"`
 
-`git fetch`
+`git fetch <remote> <branch_name>`
 
 `git log`
 
-`git merge`
+`git merge <branch_name>`
 
-`git push`
+`git push <remote> <branch_name>`
 
-`git pull`
+`git push -d <remote> <branch_name>`
+
+`git pull <remote> <branch_name>`
 
 `git status`
 
