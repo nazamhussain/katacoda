@@ -1,10 +1,21 @@
-**Objective: Clone the remote repository**
+**Objective: Complete the tasks listed on the PowerPoint slide**
 
-Use the `git clone <URL> <directory>` command to clone a remote repo.
+The _MyRepo_ directory contains your local repository.
 
-Specifying a directory as an additional argument to the `git clone` command will result in the repo being cloned to the specified directory.
+The _TheirRepo_ directory contains the local repository of a colleague - use this to simulate changes pushed to the remote repository by someone else.
 
-The URL for the remote repo is `ssh://gitserver/remoterepo`
+Attempt to complete the tasks on the PowerPoint slide - the commands listed may be of use.
+
+
+`git clone`
+`git push`
+`git pull`
+`git fetch`
+`git merge`
+`git branch`
+`git checkout`
+
+
 
 ## Set up MyRepo
 
