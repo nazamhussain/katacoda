@@ -8,11 +8,17 @@ Attempt to complete the tasks on the PowerPoint slide - the commands listed may 
 
 
 `git clone`
+
 `git push`
+
 `git pull`
+
 `git fetch`
+
 `git merge`
+
 `git branch`
+
 `git checkout`
 
 
