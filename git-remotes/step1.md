@@ -1,4 +1,4 @@
-**Objective: Set up the environment**
+**Objective: Clone the remote repository**
 
 Use the `git clone <URL> <directory>` command to clone a remote repo.
 
@@ -14,6 +14,10 @@ The URL for the remote repo is `ssh://gitserver/remoterepo`
  * `cd /root/MyRepo`{{copy}}
 3. Confirm the directory is a Git repo
  * `git status`{{copy}}
+4. Configure user name
+ * `git config user.name "My Name"`{{copy}}
+5. Configure user's email address
+ * `git config user.email "my-email@example.com"`{{copy}}
 
 
 ## Set up TheirRepo
@@ -26,6 +30,10 @@ The URL for the remote repo is `ssh://gitserver/remoterepo`
  * `cd /root/TheirRepo`{{copy}}
 4. Confirm the directory is a Git repo
  * `git status`{{copy}}
+5. Configure user name
+ * `git config user.name "Their Name"`{{copy}}
+6. Configure user's email address
+ * `git config user.email "their-email@example.com"`{{copy}}
 
 
 ## List both repositories
