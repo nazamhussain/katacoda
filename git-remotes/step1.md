@@ -20,10 +20,10 @@ The URL for the remote repo is `ssh://gitserver/remoterepo`
 
 1. Navigate to the parent directory
  * `cd /root`{{copy}}
-2. Clone the remote repo in to the _MyRepo_ directory
- * `git clone ssh://gitserver/remoterepo MyRepo`{{copy}}
-3. Navigate to the _MyRepo_ directory
- * `cd /root/MyRepo`{{copy}}
+2. Clone the remote repo in to the _TheirRepo_ directory
+ * `git clone ssh://gitserver/remoterepo TheirRepo`{{copy}}
+3. Navigate to the _TheirRepo_ directory
+ * `cd /root/TheirRepo`{{copy}}
 4. Confirm the directory is a Git repo
  * `git status`{{copy}}
 
